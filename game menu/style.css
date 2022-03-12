@@ -1,0 +1,343 @@
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	padding: 3rem;
+	color: white;
+	background-color: black;
+
+	font-size: 1.6rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+
+	text-align: center;
+}
+
+#logo {
+	padding-bottom: 2rem;
+	font-size: 5rem;
+	font-style: italic;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	-webkit-text-fill-color: orange;
+	-webkit-text-stroke: 0.1rem;
+	-webkit-text-stroke-color: white;
+}
+
+#header {
+	padding: 0 7.5rem 2rem 0;
+}
+
+.introduction {
+	box-shadow: 0.6rem 0.7rem white;
+	width: 100%;
+	padding: 2rem 0;
+	background-color: darkcyan;
+}
+
+.games {
+	padding: 2rem;
+
+	background-image: url("pictures/pexels-anthony-139038.jpg");
+	background-size: cover;
+}
+
+.games table {
+	margin: auto;
+	padding: 1rem;
+	border: 0.2rem solid white;
+	border-radius: 0.7rem;
+}
+
+#category td {
+	padding: 2rem 0;
+}
+
+table td {
+	padding: 0.5rem 0;
+	width: 40rem;
+	text-align: center;
+	border: 0.1rem solid white;
+}
+
+#video {
+	border-radius: 1rem;
+	border: 0.2rem solid white;
+	box-shadow: 1rem yellow;
+}
+
+.trailer h1 {
+	color: white;
+}
+
+#container1 {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#container1 h1 {
+	margin-right: 7rem;
+}
+
+h1 {
+	font-size: 4rem;
+	margin-bottom: 3rem;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke: 0.2rem;
+	-webkit-text-stroke-color: white;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 2.5rem;
+}
+
+h4 {
+	font-size: 2rem;
+}
+
+label {
+	font-size: 2.5rem;
+	font-weight: bold;
+	display: block;
+	margin: auto;
+}
+
+input {
+	font-size: 2rem;
+	font-weight: 500;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	text-align: center;
+	color: yellow;
+
+	border: 0.2rem solid white;
+	border-radius: 0.6rem;
+	margin-bottom: 2rem;
+	background: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	-webkit-text-fill-color: yellow;
+	box-shadow: 0 0 0 30px orange inset !important;
+}
+
+input:focus {
+	outline: none;
+	border: 0.2rem solid green;
+}
+
+.names input,
+.others input {
+	width: 40rem;
+	height: 3.5rem;
+}
+
+button {
+	color: white;
+	font-size: 2.5rem;
+	background-color: gray;
+	display: block;
+	margin: auto;
+	margin-top: 2rem;
+	width: 20rem;
+	padding: 0.5rem 3rem;
+	border: 0.2rem solid white;
+	border-radius: 1rem;
+}
+
+button:hover {
+	border-radius: 1.5rem;
+	cursor: pointer;
+	border: 0.2rem solid green;
+}
+
+.navigation {
+	margin: auto;
+	width: fit-content;
+}
+
+.navigation ul {
+	padding-right: 3.5rem;
+	list-style-type: none;
+}
+
+.navigation li {
+	margin: 1rem 0;
+	display: inline-block;
+}
+
+.navigation button {
+	margin-bottom: 2rem;
+	width: 10rem;
+	font-size: 1.6rem;
+	padding: 0.5rem 1rem;
+	border-radius: 0;
+	color: red;
+	background-color: transparent;
+}
+
+.navigation button:hover {
+	border: 0.1rem solid red;
+}
+
+#back {
+	background-color: red;
+}
+
+#back:hover {
+	border: 0.1rem solid black;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#confirm a {
+	color: red;
+}
+
+#gender {
+	margin: auto;
+	width: 40rem;
+	margin-bottom: 2rem;
+}
+
+#gender h3 {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+#gender label {
+	margin-right: 2rem;
+	display: inline;
+	font-size: 2rem;
+}
+
+#gender input {
+	margin: 1rem 0.6rem;
+}
+
+.options {
+	border: 0.2rem solid black;
+}
+
+#header {
+	margin-left: 8rem;
+}
+
+#error {
+	margin: auto;
+	color: red;
+	font-size: 1.6rem;
+	font-style: italic;
+	width: fit-content;
+	padding: 1rem;
+}
+
+#error:empty {
+	display: none;
+}
+
+#username {
+	color: green;
+	font-size: 3rem;
+}
+
+.welcome-message {
+	color: black;
+	font-size: 3rem;
+}
+
+#category {
+	color: red;
+}
+
+#footer {
+	background-color: orange;
+	padding: 0.5rem 0;
+}
+
+#footer ul {
+	list-style-type: none;
+}
+
+#footer li {
+	margin: 1rem 0;
+}
+
+#footer a {
+	color: red;
+}
+
+.links {
+	margin: 1rem 3.5rem 2rem 0;
+}
+
+h1,
+#footer h3,
+.introduction h3 {
+	color: black;
+}
+
+#buttons2 button {
+	display: inline;
+	font-size: 1.6rem;
+}
+
+#logIn-btn {
+	background-color: blue;
+}
+
+#signUp-btn {
+	background-color: coral;
+}
+
+#container2 h1 {
+	color: white;
+}
+
+#container2 {
+	margin: auto;
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+#container2 h2 {
+	color: black;
+}
+
+.nameTag h3 {
+	display: inline;
+}
+
+#username2 {
+	color: green;
+}
+
+#username3,
+#username1 {
+	font-style: oblique;
+	color: cornflowerblue;
+}
+
+#forgot {
+	color: yellow;
+}

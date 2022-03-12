@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up</title>
+</head>
+<body>
+    <h1 id="header" >Create Account</h1>
+    <br>
+    <form action="welcome.html">
+
+        <div class="content">
+            <div class="names">
+                <label >First name(s): </label>
+                <input required type="text" id="firstName" >
+                
+                <label >Last name: </label>
+                <input required type="text" id="lastName" >
+                
+                <label for="">In-game name: </label>
+                <input required type="text" id="inGameName" >
+            </div>
+            
+            <div id="gender">
+                <h3>Gender: </h3>
+                <div class="options">
+                    <input type="radio" name="gender" id="male" value="Mr" checked >
+                    <label for="male">Male</label>
+    
+                    <input type="radio" name="gender" id="female" value="Mrs">
+                    <label for="female">Female</label>
+    
+                    <input type="radio" name="gender" id="others" value="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+    
+            <div class="others">
+                <label for="">Email adress: </label>
+                <input required type="email" id="email" name="email" >
+    
+                <div id="passwords">
+                    <label for="">Password: </label>
+                    <input required type="password" id="password" name="password">
+                    
+                    <label for="">Confirm password: </label>
+                    <input required type="password" id="password2">
+                </div>
+            </div>
+        </div>
+        <button type="submit" id="signUp" >SIGN UP</button>
+    </form>
+    <form action="main.html">
+        <button id="back" >BACK</button>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>

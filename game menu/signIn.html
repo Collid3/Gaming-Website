@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign in</title>
+</head>
+<body>
+    
+    <div id="container1">
+        <form action="main.html" >
+            <header id="header" >
+                <h1>Account information</h1>
+            </header>
+            
+            <div class="labels">
+                <div id="error"></div>
+                
+                <label for="">Username: </label>
+                <input required type="text" id="username" name="username" placeholder="Username or email">
+                <br>
+                <label for="">password: </label>
+                <input required type="password" id="password" name="password" placeholder="Password">
+            </div>
+            <button type="submit" id="logIn" >LOG IN</button>
+            <br>
+            <p><a href="" id="forgot" >Forgot password/username?</a></p>
+        </form>
+        <form action="main.html">
+            <button type="submit" id="back" >BACK</button>
+        </form>
+    </div>
+
+    <script src="script4.js" ></script>
+</body>
+</html>
